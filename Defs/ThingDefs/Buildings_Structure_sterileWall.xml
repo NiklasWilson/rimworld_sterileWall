@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Buildings>
+
+	<ThingDef Name="NW_sterileWallBuildingBase" Abstract="True">
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>BuildingRubble</filthLeaving>
+	</ThingDef>
+
+	<ThingDef ParentName="NW_sterileWallBuildingBase">
+		<defName>NW_sterileWall</defName>
+		<label>Sterile Wall</label>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<Description>A wall worthy of your med bay.</Description>
+		<graphicData>
+			<shaderType>CutoutComplex</shaderType>
+			<texPath>Things/Building/sterileWall_bluePrint</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<uiIconPath>Things/Building/sterileWall_menuIcon</uiIconPath>
+		<blueprintGraphicData>
+			<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+		</blueprintGraphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToMake>420</WorkToMake>
+			<Flammability>0</Flammability>
+			<Beauty>2</Beauty>
+		</statBases>
+		<costStuffCount>10</costStuffCount>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<coversFloor>true</coversFloor>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<holdsRoof>true</holdsRoof>
+		<designationCategory>Structure</designationCategory>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<blockLight>true</blockLight>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<building>
+			<isInert>true</isInert>
+			<ignoreNeedsPower>true</ignoreNeedsPower>
+		</building>
+	</ThingDef>
+
+</Buildings>
