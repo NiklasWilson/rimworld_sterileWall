@@ -44,11 +44,10 @@
 		</blueprintGraphicData>
 		<statBases>
 			<MaxHitPoints>500</MaxHitPoints>
-			<WorkToMake>420</WorkToMake>
+			<WorkToMake>550</WorkToMake>
 			<Flammability>0</Flammability>
-			<Beauty>2</Beauty>
+			<Beauty>3</Beauty>
 		</statBases>
-		<costStuffCount>10</costStuffCount>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<altitudeLayer>Building</altitudeLayer>
 		<passability>Impassable</passability>
@@ -65,9 +64,10 @@
 		<designationCategory>Structure</designationCategory>
 		<staticSunShadowHeight>1.0</staticSunShadowHeight>
 		<blockLight>true</blockLight>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
+    	<costList>
+     		<Silver>5</Silver>
+     		<Steel>8</Steel>
+        </costList>
 		<building>
 			<isInert>true</isInert>
 			<ignoreNeedsPower>true</ignoreNeedsPower>
