@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.1" encoding="utf-8"?>
 <ModMetaData>
 	<name>NW Sterile Wall</name>
 	<author>WNik</author>
 	<url>https://wwww.niklaswilson.net</url>
-	<targetVersion>0.14.1238</targetVersion>
+	<targetVersion>0.17</targetVersion>
 	<description>Adds walls to the game that fit nicely with sterile floors.</description>
 </ModMetaData>
