@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>NW Sterile Wall A17</name>
+	<name>NW Sterile Wall B18</name>
 	<author>WNik</author>
 	<url>https://wwww.niklaswilson.net</url>
-	<targetVersion>0.17.1546</targetVersion>
+	<targetVersion>0.18.1722</targetVersion>
 	<description>Adds walls to the game that fit nicely with sterile floors.</description>
 </ModMetaData>

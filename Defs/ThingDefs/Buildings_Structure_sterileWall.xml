@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
 	<ThingDef Name="NW_sterileWallBuildingBase" Abstract="True">
 		<category>Building</category>
@@ -18,7 +18,7 @@
 		<label>Sterile Wall</label>
 		<thingClass>Building</thingClass>
 		<category>Building</category>
-		<Description>A wall worthy of your med bay.</Description>
+		<description>A wall worthy of your med bay.</description>
 		<graphicData>
 			<shaderType>CutoutComplex</shaderType>
 			<texPath>Things/Building/sterileWall_bluePrint</texPath>
@@ -70,8 +70,7 @@
         </costList>
 		<building>
 			<isInert>true</isInert>
-			<ignoreNeedsPower>true</ignoreNeedsPower>
 		</building>
 	</ThingDef>
 
-</Buildings>
+</Defs>
