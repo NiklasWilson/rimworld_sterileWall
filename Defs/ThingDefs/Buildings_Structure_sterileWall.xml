@@ -26,6 +26,7 @@
 			<linkType>CornerFiller</linkType>
 			<linkFlags>
 				<li>Wall</li>
+				<li>Rock</li>
 			</linkFlags>
 			<damageData>
 				<cornerTL>Damage/Corner</cornerTL>
